@@ -1,0 +1,33 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "geolocation_city",
+      "geolocation_lat",
+      "geolocation_lng",
+      "geolocation_state",
+      "geolocation_zip_code_prefix"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "geolocation_city": {
+        "bsonType": "string"
+      },
+      "geolocation_lat": {
+        "bsonType": "double"
+      },
+      "geolocation_lng": {
+        "bsonType": "double"
+      },
+      "geolocation_state": {
+        "bsonType": "string"
+      },
+      "geolocation_zip_code_prefix": {
+        "bsonType": "int"
+      }
+    }
+  }
+}

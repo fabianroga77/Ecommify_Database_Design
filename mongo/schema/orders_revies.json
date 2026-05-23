@@ -1,0 +1,48 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "order_id",
+      "review_answer_timestamp",
+      "review_creation_date",
+      "review_id",
+      "review_score"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "order_id": {
+        "bsonType": [
+          "string",
+          "binData"
+        ]
+      },
+      "review_answer_timestamp": {
+        "bsonType": "string"
+      },
+      "review_comment_message": {
+        "bsonType": "string"
+      },
+      "review_comment_title": {
+        "bsonType": [
+          "string",
+          "int"
+        ]
+      },
+      "review_creation_date": {
+        "bsonType": "string"
+      },
+      "review_id": {
+        "bsonType": [
+          "string",
+          "binData"
+        ]
+      },
+      "review_score": {
+        "bsonType": "int"
+      }
+    }
+  }
+}
