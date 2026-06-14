@@ -1,6 +1,11 @@
 # Ecommify Database Design (Tercera Entrega)
 **Maestría en Arquitectura de Software — Base de Datos I**
-**Grupo:** 0000393177 · 0000393134 · 0000399159 · 0000393714
+**Grupo E18:** 
+Jorge Eliecer Rojas Quiñones -
+David Panesso Sánchez -
+Juan Esteban Gómez Roa -
+Fabian Rojas
+
 Unidad 5: Optimización de Rendimiento en MongoDB
 Implementación técnica completa de la capa de datos para **Ecommify**, plataforma e-commerce basada en el dataset Olist (Brasil). El proyecto integra **PostgreSQL** (Supabase) para datos transaccionales y **MongoDB Atlas** para el módulo analítico de reseñas y geolocalización.
 
