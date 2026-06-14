@@ -245,12 +245,10 @@ Ver carpeta `/evidencias/` para:
 
 ## Autores
 
-| Código | Rol |
-|---|---|
-| 0000393177 | — |
-| 0000393134 | — |
-| 0000399159 | — |
-| 0000393714 | — |
+Jorge Eliecer Rojas Quiñones -
+David Panesso Sánchez -
+Juan Esteban Gómez Roa -
+Fabian Rojas
 
 **Institución:** Universidad de La Sabana
 **Programa:** Maestría en Arquitectura de Software
@@ -260,7 +258,10 @@ Ver carpeta `/evidencias/` para:
 # Ecommify — Database Design (Segunda Entrega)
 
 **Universidad de La Sabana · Bases de Datos**
-Estudiantes: 0000393177 · 0000393134 · 0000399159 · 0000393714
+Estudiantes: Jorge Eliecer Rojas Quiñones -
+David Panesso Sánchez -
+Juan Esteban Gómez Roa -
+Fabian Rojas
 
 ---
 
