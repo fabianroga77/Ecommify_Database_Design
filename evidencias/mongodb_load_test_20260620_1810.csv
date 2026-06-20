@@ -1,0 +1,7 @@
+,count,throughput,mean_ms,median_ms,p95_ms,p99_ms,min_ms,max_ms,errors,description,expected
+Q1_find_order_id,3097,103.2,97.59,43.13,604.04,617.43,37.78,651.74,0,find() por order_id — índice regular,IXSCAN
+Q2_find_review_score,3096,103.2,97.54,43.65,596.38,609.97,39.38,647.94,0,find() por review_score — índice regular,IXSCAN
+Q3_compound_ESR,3099,103.3,97.5,42.18,599.91,623.25,38.39,686.42,0,"Compuesto ESR {score, date} — SORT eliminado",IXSCAN sin SORT
+Q4_partial_index,3093,103.1,97.85,42.77,593.13,616.82,38.48,641.33,0,Índice parcial compuesto reviews <= 2 — SORT eliminado,IXSCAN partial sin SORT
+Q5_zip_code,3102,103.4,98.11,40.23,608.28,644.31,37.51,769.75,0,find() geolocation por zip_code,IXSCAN
+Q6_aggregation,1206,40.2,249.94,241.2,340.84,430.99,83.7,1029.73,0,Aggregation pipeline 6 stages ($lookup + $group),IXSCAN → $lookup → $group
