@@ -1,0 +1,13 @@
+Motor,Query,Throughput,P50_ms,P95_ms,Errores
+PostgreSQL,Q1_customer_btree,482.7,20.72,22.06,0
+PostgreSQL,Q2_status_btree,481.0,20.99,22.02,0
+PostgreSQL,Q3_jsonb_gin,475.0,20.81,22.69,0
+PostgreSQL,Q4_tstzrange_gist,487.1,20.35,21.8,0
+PostgreSQL,Q5_join_multitable,3.8,2550.17,3813.59,0
+PostgreSQL,Q6_materialized_view,464.1,21.42,22.66,0
+MongoDB,Q1_find_order_id,103.2,41.56,612.97,0
+MongoDB,Q2_find_review_score,103.2,43.84,596.46,0
+MongoDB,Q3_compound_ESR,103.1,42.42,599.04,0
+MongoDB,Q4_partial_index,103.3,42.05,600.01,0
+MongoDB,Q5_zip_code,103.2,40.76,608.01,0
+MongoDB,Q6_aggregation,38.5,251.04,379.2,0
