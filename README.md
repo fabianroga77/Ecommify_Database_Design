@@ -51,7 +51,7 @@ Ecommify_Database_Design/
 │   │   └── 02_indexes_geolocation.js
 │   ├── schema/
 │   │   ├── geolocation.json
-│   │   └── orders_reviews.json          ⚠️ verificar nombre exacto en el repo
+│   │   └── orders_reviews.json    
 │   ├── sharding/
 │   │   └── 01_sharding_design.md
 │   └── script_video.js
@@ -79,12 +79,6 @@ Ecommify_Database_Design/
 │
 └── README.md
 ```
-
-> ⚠️ El nombre `orders_reviews.json` arriba asume que el typo histórico
-> (`orders_revies.json`) ya fue corregido. Verificar en el repo real antes
-> de la entrega; si no se corrigió, renombrar el archivo y actualizar
-> cualquier referencia a él.
-
 ---
 
 ## Nombres reales de tablas/colecciones — nota importante
@@ -228,10 +222,6 @@ Atlas → Network Access → Add IP Address → **Allow Access from Anywhere**
 |---|---|---|
 | `orders_reviews` | Documentos por reseña | `idx_order_id`, `idx_review_score`, `idx_score_date` (compound ESR), `idx_negative_reviews` (partial compound, `review_score <= 2`) |
 | `geolocation` | Documento por zip code | `idx_zip_code`, `idx_state_city` (compound) |
-
-> ⚠️ El índice `2dsphere` mencionado en versiones anteriores del README no
-> fue confirmado en el cluster actual. Verificar con `db.geolocation.getIndexes()`
-> antes de afirmarlo en el informe — si no existe, no incluirlo como evidencia.
 
 ---
 
